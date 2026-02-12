@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Name Concatenate</title>
+</head>
+<body>
+    <h1>JS Exercise 2</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="first_name">Enter First Name:</label>
+            </td>
+            <td>
+                <input type="text" name="first_name" id="first_name" placeholder="Enter first name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="middle_name">Enter Middle Name:</label>
+            </td>
+            <td>
+                <input type="text" name="middle_name" id="middle_name" placeholder="Enter middle name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="last_name">Enter Last Name:</label>
+            </td>
+            <td>
+                <input type="text" name="last_name" id="last_name" placeholder="Enter last name">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="enter()">Generate Full Name</button>
+                <button onclick="clearEntries()">Clear Entries</button>
+            </td>
+        </tr>
+    </table>
+
+    <p>Generated Full Name:</p>
+    <p><span style="font-weight: bold;" id="full_name"></span></p>
+    
+    <script src="main.js"></script>
+</body>
+</html>

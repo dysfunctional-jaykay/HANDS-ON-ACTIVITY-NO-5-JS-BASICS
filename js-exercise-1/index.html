@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        span {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS Exercise 1</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="num1">Enter first number:</label>
+            </td>
+            <td>
+                <input type="text" name="num1" id="num1" placeholder="Enter first number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num2">Enter second number:</label>
+            </td>
+            <td>
+                <input type="text" name="num2" id="num2" placeholder="Enter second number">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="calculate()">Calculate</button>
+                <button onclick="clearEntries()">Clear Entries</button>
+            </td>
+        </tr>
+    </table>
+
+    <p style="font-weight: bold;">Result: </span></p>
+    <table>
+        <tr>
+            <td>
+                Sum:
+            </td>
+            <td>
+                <span id="sum"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Difference:
+            </td>
+            <td>
+                <span id="difference"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Product:
+            </td>
+            <td>
+                <span id="product"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Quotient:
+            </td>
+            <td>
+                <span id="quotient"></span>
+            </td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
